@@ -1,0 +1,12 @@
+G91		; Relative positionning
+G1 Z10.0 F3000	; Move Z Axis up to 10mm (prevent ooze glob on bed and scarring)
+
+G90		; Absolute positioning
+G1 X0 Y300		; Present print
+M106 S0		; Turn-off fan
+M104 S0		; Turn-off hotend
+M140 S0		; Turn-off bed
+
+M84 X Y E		; Disable all steppers but Z
+
+M81 192.168.160.32 1	; Power off the printer (delay set in Octoprint)
