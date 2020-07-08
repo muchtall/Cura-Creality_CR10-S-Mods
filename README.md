@@ -1,4 +1,4 @@
-# Cura-Creality_CR10-S-Mods
+# Cura / Creality CR10-S Mods
 Assorted customizations of the Creality CR10-S profile in Cura
 
 ## CR-10S with EZ-ABL - Start GCODE.txt
